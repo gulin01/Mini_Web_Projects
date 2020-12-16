@@ -1,0 +1,27 @@
+{
+  "name": "guli",
+  "version": "1.0.0",
+  "description": "  practiceApplication",
+  "main": "b.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel src -d lib"
+  },
+  "keywords": [
+    "any"
+  ],
+  "author": "guli",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "events": "^3.1.0",
+    "jQuery": "^1.7.4",
+    "jquery": "^3.4.1",
+    "net": "^1.0.2",
+    "request": "^2.88.2"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0"
+  }
+}

@@ -1,0 +1,165 @@
+body{
+  font-family: Helvetica;
+  font-size: 22px;
+  color:white;
+  background-color: black;
+  opacity: 0.9;
+}
+/* for navigation at the top */
+.wrapper{
+background-color: #000;
+position: fixed;
+width: 100%;
+z-index: 100;
+max-height: 69px;
+padding:auto;
+margin:auto;
+border-bottom:1px solid seashell;
+top:0;
+}
+
+/* the logo at the top */
+div img{
+  height: 50px;
+  float:left;
+}
+nav{
+  display: flex;
+  float:right;
+  margin-right:0;
+}
+
+nav ul{
+  margin-bottom: 5rem;
+  margin-top:1rem;
+  margin-left: 2rem;
+
+}
+nav li {
+  display: inline;
+  float:right;
+  margin-top: 0.5;
+  text-decoration: none;
+  padding:0.5rem;
+  align-self: stretch;
+
+}
+nav li a{
+  color:seashell;
+}
+/* container for the first image on the page */
+.container{
+  background-image: url("images/img-mission-background.jpg");
+  align-self: center;
+  height: 700px;
+  width: 1200px;
+  margin: 69px 20px;
+  position: relative;
+}
+/* the text in the middle of the image */
+  .con1{
+    background: black;
+    width: inherit;
+    position: absolute;
+    top:40%;
+
+  }
+  /* the cotainer for the images as displayed flex  */
+  .container2{
+    width:1000px;
+    margin: auto;
+  }
+  .ul{
+    display: flex;
+    list-style-type: none;
+    justify-content:space-around;
+  }
+
+
+  .ul1 img, .ul img{
+    width:300px;
+    height: 200px;
+    margin-bottom: 10px;
+
+  }
+  .ul1{
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    align-items: flex-start;
+
+  }
+
+  .ul li,.ul1 li{
+    margin:1%;
+    margin-bottom: 10px;
+  }
+  .ul p, .ul1 p{
+    text-align: center;
+    font-weight: bold;
+  }
+  /* locations informatin container background is image too */
+  .locations{
+    background-image: url("images/img-locations-background.jpg");
+    background-size: cover;
+    height: 500px;
+    width: 1200px;
+    margin: 20px;
+    margin-top: 0;
+    position: relative;
+
+  }
+   .h1{
+     width: inherit;
+     position: absolute;
+     top: 8%;
+     margin: auto;
+     margin-bottom: 15px;
+  }
+
+
+
+.flex{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  position:relative;
+  top:20%;
+  margin: 10px;
+
+}
+.loc {
+  background-color: #000;
+  width: 300px;
+  height: auto;
+  list-style-type: none;
+  padding: 0;
+  text-align: center;
+  margin: 40px 40px;
+  opacity: 1;
+
+
+}
+.loc li{
+    width: auto;
+    margin: auto;
+    padding: 1rem;
+    font-weight: bold;
+}
+
+
+.lHeader{
+   height:auto;
+}
+
+footer{
+  color: se
+  height: 200px;
+  text-align: center;
+
+}
+#copy{
+float:left;
+height: 20px;
+color: seashell;
+}

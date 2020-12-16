@@ -1,0 +1,208 @@
+body{
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+}
+
+.wrapper{
+  background:url("https://www.prontointernet.net/wp-content/uploads/2018/02/Linux-VPS-Hosting-UK..jpg");
+  no-repeat center center fixed;
+  min-height: 680px;
+  background-size: cover;
+}
+
+header{
+  width:100%;
+  padding-top: 2%;
+}
+
+.main{
+  color:#fff;
+  font-size:1.2rem;
+  float:left;
+  font-weight:600;
+  margin-left:5%;
+}
+nav{
+  float:right;
+  margin-right: 5%;
+}
+nav li{
+display: inline;
+padding: 1.5rem;
+}
+nav li a{
+  color:#fff;
+  text-decoration: none;
+  font-weight:100;
+}
+
+nav li a:hover{
+  color:red;
+  border-bottom: 2px solid red;
+  font-family: cursive;
+  transition: all 0.5s ease-in;
+  padding: 15px 0;
+}
+
+.section{
+  padding-top:200px;
+  text-align:center;
+}
+
+.section p{
+  color: #fff;
+}
+
+.section h2{
+    font-size:3rem;
+    color:#fff;
+}
+
+.section button{
+  margin-top: 2%;
+  padding: 15px 17px;
+  border-radius: 40px;
+  background-color: transparent;
+  border: 2px solid #fff;
+  color: #fff;
+  font-size: 1rem;
+}
+
+
+.section button:hover{
+  background-color: red;
+  font-family: cursive;
+  border:none;
+}
+
+#search{
+  margin-top:5%;
+  overflow:hidden;
+  display: flex;
+  margin-bottom: 5%
+}
+
+.left{
+  width:30%;
+  text-align: right;
+  padding-right: 2rem;
+  font-size:.2rem;
+}
+
+
+.right{
+  width:70%;
+  padding:2rem;
+}
+
+.input_domain{
+  width:70%;
+  padding:0.7rem;
+  font-size: 1rem;
+}
+
+.search_btn{
+  background-color: #3C40C6;
+  padding: 0.8rem  2rem;
+  border: none;
+  color:#fff;
+  font-size:1.1rem;
+}
+
+.search_btn:hover{
+  background-color: firebrick;
+  border:none;
+}
+
+#pricing{
+  background-color: #333;
+  color:#fff;
+  padding:1rem;
+}
+.ul li{
+  padding: 0.8rem;
+  border-bottom:2px solid lightgray;
+  background-color: #fff;
+}
+.ul{
+  color: #555;
+  margin:4%;
+  padding: 0;
+  width:100%;
+  list-style-type: none;
+  text-align: center;
+}
+
+.box{
+  padding: 0.8rem;
+  display: flex;
+  justify-content:space-around;
+
+}
+#bg{
+  background-color: #fff;
+  font-size: 2.3rem;
+}
+
+#head{
+  background-color: #000;
+  color: #fff;
+  font-size: 2.5rem;
+}
+ #head2{
+  background-color: #4CAF50;
+  color:#fff;
+  font-size: 2.5;
+}
+.price_btn {
+  background-color: #4CAF50;
+  border: none;
+  padding: 0.7rem 2rem;
+  color:#fff;
+
+}
+#contact{
+  background-color: #74B9ff;
+  padding:0.5rem;
+  padding-left: 3rem;
+}
+
+.space{
+  text-align: center;
+  margin: 5%;
+}
+
+label{
+  display: block;
+  margin-bottom: 5%;
+}
+
+.form input{
+  width:95%;
+  padding:0.6rem;
+  margin-bottom:1%;
+  margin-left: 4%;
+}
+textarea{
+  margin-bottom: 50px;
+}
+.form button{
+  background-color: #3C40C6;
+  padding:0.8rem 2rem;
+  border: none;
+  color:#fff;
+  font-size:1.1rem;
+  margin-top:1%;
+  margin:0 auto;
+
+}
+footer{
+  background-color: #333;
+  color:#fff;
+  padding:0.7rem;
+  text-align: center;
+}
+
+
+/* ffsdfd */

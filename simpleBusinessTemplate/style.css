@@ -1,0 +1,130 @@
+body{
+  background: url("https://thumbs.dreamstime.com/z/white-gray-paper-abstract-background-website-banner-business-card-invitation-35238788.jpg")
+  no-repeat center center fixed;
+  background-size: cover;
+  font-family: sans-serif;
+}
+
+header{
+  width:90%;
+  margin: auto;
+  overflow: hidden;
+
+}
+.head{
+  color:#000;
+  font-size: 0.8rem;
+  word-spacing: 0.7rem;
+  float: left;
+
+}
+nav{
+  float:right;
+}
+ul{
+  border-left: 3px solid coral;
+}
+
+li{
+  display: inline;
+  padding-right: 1.7rem;
+}
+li a{
+  color: #000;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.quote{
+  background-color: #F8290B;
+  padding: 0.5rem 1rem;
+  border-radius: 1.3rem;
+}
+
+.container{
+  width:70%;
+  margin: auto;
+  overflow: hidden;
+  margin-top: 5rem;
+}
+
+showcase h1{
+  font-size: 4rem;
+  color:#000;
+  margin-bottom: 0;
+}
+showcase h3{
+  font-size: 2rem;
+  color: #000;
+  left-spacing:0.5rem;
+}
+
+showcase p{
+  color: #000;
+  font-family:cursive;
+  font-size:1.2rem;
+  font-weight:bolder;
+}
+
+a button{
+  background-color: inheri t;
+  color: #000;
+  border: 2px solid #000;
+  padding: 0.7rem 1rem;
+  border-radius: 1.3rem;
+  margin-top: 1.2rem;
+}
+ aside{
+   width:90%;
+   margin: auto;
+   color: #000;
+   font-size: 1.2rem;
+    text-align: right;
+ }
+
+ .price{
+   color: gold;
+   font-size:3rem;
+   padding-left:0.7rem;
+ }
+
+ .btn{
+   background-color: #E44236;
+    border: none;
+    border-radius: 5px;
+    padding: 1rem;
+
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*8fkgnfjgjngkfjhg/
